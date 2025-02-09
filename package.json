@@ -3,6 +3,31 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"No tests yet!\""
-  }
+
+  },
+ "dependencies": { 
+    "express": "^4.18.2"
+  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "echo \"Error: no test specified\"",
+  "eject": "react-scripts eject"
+},
+"eslintConfig": {
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ]
+},
+"browserslist": {
+  "production": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
+
+
 }
 
