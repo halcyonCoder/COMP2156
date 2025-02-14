@@ -1,13 +1,15 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
+  "homepage": "http://pritamworld.github.io/w2025_comp2156",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\"",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "http://pritamworld.github.io/w2025_comp2156",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -37,10 +39,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build",
-"homepage": "https://halcyonCoder.github.io/comp2156"
-
-
+  }
 }
