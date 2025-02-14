@@ -1,7 +1,7 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
-  "homepage": "http://halcyonCoder.github.io/COMP2156",
+  "homepage": "http://halcyoncoder.github.io/COMP2156",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
